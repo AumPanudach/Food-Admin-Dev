@@ -6,9 +6,12 @@ import { Routes , Route } from 'react-router-dom'
 import Add from './page/Add/Add'
 import List from './page/List/List'
 import Orders from './page/Orders/Orders'
+import { ToastContainer} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const App = () => {
   return (
     <div>
+      <ToastContainer />
         <Navbar />
         <hr/>
         <div className='app-content'>
